@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="General"
+        tools:ignore="HardcodedText">
+        <menu>
+
+            <item
+                android:id="@+id/note"
+                android:icon="@drawable/ic_baseline_event_note_24"
+                android:title="Note" />
+            <item
+                android:id="@+id/addnote"
+                android:icon="@android:drawable/ic_menu_add"
+                android:title="Add Note" />
+            <item
+                android:id="@+id/signup"
+                android:icon="@android:drawable/ic_popup_sync"
+                android:title="Sign Up" />
+            <item
+                android:id="@+id/Log"
+                android:icon="@android:drawable/ic_secure"
+                android:title="Login" />
+        </menu>
+    </item>
+    <item android:title="Logout"
+        tools:ignore="HardcodedText">
+<menu>
+    <item
+        android:id="@+id/logout"
+        android:icon="@android:drawable/ic_partial_secure"
+        android:title="Logout" />
+</menu>
+    </item>
+</menu>
